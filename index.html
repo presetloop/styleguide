@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRESETLOOP - Style Guide</title>
+  <style>
+  html{
+    overflow-x: hidden;
+    scrollbar-width: none; 
+  }
+  body{
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, #eee 1px, transparent 1px),
+      linear-gradient(to bottom, #eee 1px, transparent 1px);
+      /* radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px); */
+  }
+div pre{
+  position: absolute;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.9);
+  top: 5px;
+  left: 37px;
+  font-size: 1.2rem;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: -200px;
+}
+.logo{
+  scale: 3.5;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.serif{
+  font-family: serif;
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+  white-space: no-wrap;
+  letter-spacing: -1px;
+}
+.serif span{
+  display: inline-block;
+  font-size: 90px;
+  line-height: 50px;
+  margin-top: 14px;
+  margin-left: -2px;
+  margin-right: 3px;
+  letter-spacing: -7px;
+  color: white;
+  text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
+}
+
+.sans{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+  white-space: no-wrap;
+  letter-spacing: -1px;
+}
+.sans span{
+  display: inline-block;
+  font-size: 100px;
+  line-height: 50px;
+  margin-top: 15px;
+  margin-left: -0px;
+  letter-spacing: -2px;
+  color: white;
+  text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
+}
+
+.mono{
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+  white-space: no-wrap;
+  letter-spacing: -5px;
+  word-spacing: -30px;
+}
+.mono span{
+  display: inline-block;
+  font-size: 100px;
+  line-height: 50px;
+  margin-top: 0px;
+  margin-left: 3px;
+  letter-spacing: 0px;
+  color: white;
+  text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
+}
+
+.tagline{
+  font-family: monospace;
+  line-height: 1;
+  background: white;
+  padding: 20px;
+}
+
+
+
+/*  */
+/*  */
+/*  */
+.line {
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  transform-origin: left;
+  width: 0;
+  height: 50px;
+  z-index: -1;
+  height: 10px;
+  background: #f33;
+}
+  </style>
+</head>
+<body>
+  <div>
+    <pre>
+.serif{
+  font-family: serif;
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+  white-space: no-wrap;
+  letter-spacing: -1px;
+}
+.serif span{
+  display: inline-block;
+  font-size: 90px;
+  line-height: 50px;
+  margin-top: 14px;
+  margin-left: -2px;
+  margin-right: 3px;
+  letter-spacing: -7px;
+  color: white;
+  text-shadow: -.5px -.5px 0 #000, 
+  .5px -.5px 0 #000, 
+  -.5px .5px 0 #000, 
+  .5px .5px 0 #000;
+}
+
+.sans{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+  white-space: no-wrap;
+  letter-spacing: -1px;
+}
+.sans span{
+  display: inline-block;
+  font-size: 100px;
+  line-height: 50px;
+  margin-top: 15px;
+  margin-left: -0px;
+  letter-spacing: -2px;
+  color: white;
+  text-shadow: -.5px -.5px 0 #000, 
+  .5px -.5px 0 #000, 
+  -.5px .5px 0 #000, 
+  .5px .5px 0 #000;
+}
+
+.mono{
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+  white-space: no-wrap;
+  letter-spacing: -5px;
+  word-spacing: -30px;
+}
+.mono span{
+  display: inline-block;
+  font-size: 100px;
+  line-height: 50px;
+  margin-top: 0px;
+  margin-left: 3px;
+  letter-spacing: 0px;
+  color: white;
+  text-shadow: -.5px -.5px 0 #000, 
+  .5px -.5px 0 #000, 
+  -.5px .5px 0 #000, 
+  .5px .5px 0 #000;
+}
+</pre>
+</div>
+
+<div class="wrapper">
+<div class="logo">
+    <p class="serif">preset l<span>∞</span>p</p>
+  </div>
+  <div class="logo">
+    <p class="sans">preset l<span>∞</span>p</h2>
+  </div>
+  <div class="logo">
+    <p class="mono">preset l<span>∞</span>p</p>
+  </div>
+  <div>
+    <p class="tagline">Audio samples for music makers</p>
+  </div>
+</div>
+
+</body>
+</html>
